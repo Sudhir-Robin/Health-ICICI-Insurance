@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Health-ICICI-Insurance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+989041a68d6302b672de8f68decd6efc964766b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43556768b345f7318a6f860d027de9e22fbffc0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Health-ICICI-Insurance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Health-ICICI-Insurance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
