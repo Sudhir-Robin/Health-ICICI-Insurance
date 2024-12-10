@@ -9,7 +9,7 @@ public class PremiumRequestBuilder : IRequestBuilder
     public IRequest Build(IRequest request)
     {
         PremiumRequest premiumReq = new PremiumRequest();
-
+        
         return premiumReq;
     }
 }

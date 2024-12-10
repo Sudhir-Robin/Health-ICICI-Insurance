@@ -2819,11 +2819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
+      "projectUniqueName": "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
       "projectName": "Health-ICICI-Insurance",
-      "projectPath": "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
+      "projectPath": "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
       "packagesPath": "C:\\Users\\108691\\.nuget\\packages\\",
-      "outputPath": "G:\\Development\\Health\\Health-ICICI-Insurance\\obj\\",
+      "outputPath": "g:\\Development\\Health\\Health-ICICI-Insurance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
