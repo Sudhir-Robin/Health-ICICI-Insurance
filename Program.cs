@@ -1,3 +1,4 @@
+using Microsoft.Identity.Client;
 using One.Health.Common;
 using One.Health.Common.Response;
 using One.Health.CommonEntity;
@@ -13,7 +14,9 @@ builder.Services.AddSingleton<IConfiguration>(configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 
-builder.Services.AddKeyedSingleton<IQuoteService, PremiumService>("ICICIQuoteService");
+builder.Services.AddSingleton<QuoteTokenService>();
+builder.Services.AddKeyedSingleton<IQuoteService, QuoteService>("ICICIQuoteService");
+//builder.Services.AddKeyedSingleton<IQuoteTokenService, QuoteTokenService>("ICICIQuoteTokenService");
 builder.Services.AddKeyedSingleton<IResponse, PremiumResponse>("ICICIQuoteResponse");
 builder.Services.AddKeyedSingleton<IResponse, TokenPremiumResponse>("ICICITokenResponse");
 builder.Services.AddKeyedSingleton<IResponse, CommonResponse>("ICICICommonResponse");
