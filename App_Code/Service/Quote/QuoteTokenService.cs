@@ -24,9 +24,6 @@ public class QuoteTokenService : IQuoteService
     {
         TokenPremiumResponse tokenPremiumResponse = new TokenPremiumResponse();
 
-        // var client = new HttpClient();
-        // var req = new HttpRequestMessage(HttpMethod.Post, tokenUrl);
-
         var formData = new Dictionary<string, string>
         {
             { "grant_type", grantType },
@@ -47,16 +44,6 @@ public class QuoteTokenService : IQuoteService
             {
                 tokenPremiumResponse = response.Result.Content.ReadFromJsonAsync<TokenPremiumResponse>().Result;
             }
-            // Read the response
-            // if (response.Result.IsSuccessStatusCode)
-            // {
-            //     string responseBody =response.Result.Content.ReadAsStringAsync();
-            //     Console.WriteLine("Response: " + responseBody);
-            // }
-            // else
-            // {
-            //     Console.WriteLine("Error: " + response.StatusCode);
-            // }
         }
 
         return tokenPremiumResponse;

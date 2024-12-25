@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj": {}
+    "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj": {}
   },
   "projects": {
     "g:\\Development\\Health\\CommonEntity\\CommonEntity.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj": {
+    "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
+        "projectUniqueName": "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
         "projectName": "Health-ICICI-Insurance",
-        "projectPath": "g:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
+        "projectPath": "G:\\Development\\Health\\Health-ICICI-Insurance\\Health-ICICI-Insurance.csproj",
         "packagesPath": "C:\\Users\\108691\\.nuget\\packages\\",
-        "outputPath": "g:\\Development\\Health\\Health-ICICI-Insurance\\obj\\",
+        "outputPath": "G:\\Development\\Health\\Health-ICICI-Insurance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
